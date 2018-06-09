@@ -13,15 +13,16 @@ Welcome to the documentation for Commander!
 What is Commander?
 ------------------
 
-Commander is a small Chrome extension that attempts to help improve your development
-workflow by providing easy to use commands from the omnibox.
+Commander is a small Chrome extension that attempts to help improve
+your development workflow by providing easy to use commands from the omnibox.
 
 How does it work?
 -----------------
 
-Commander takes advantage of an API that Chrome provides which allows you to use the
-omnibox in order to pass input to the extension. So, by taking advantage of that,
-we can make a command system purely using Chrome's omnibox and vanilla APIs.
+Commander takes advantage of an API that Chrome provides which allows you to
+use the omnibox in order to pass input to the extension. So, by taking
+advantage of that, we can make a command system purely using Chrome's omnibox
+and vanilla APIs.
 
 Can I have some screenshots?
 ----------------------------
