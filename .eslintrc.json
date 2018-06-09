@@ -27,6 +27,7 @@
         
         "semi": "off",
         "no-unused-vars": "off",
+        "no-undef": "off",
         "quotes": ["warn", "single", {"avoidEscape": true, "allowTemplateLiterals": true}],
         "indent": "error",
         "no-unsafe-negation": "error",
