@@ -5,12 +5,12 @@ const commands = {
         execute(args) {
             if (args.length > 0) {
                 chrome.tabs.create({
-                    url: 'https://chromecommander.rtfd.io/en/latest/' + args[0] + '.html',
+                    url: 'http://chromecommander.rtfd.io/en/latest/' + args[0] + '.html',
                     active: true
                 });
             } else {
                 chrome.tabs.create({
-                    url: 'https://chromecommander.rtfd.io',
+                    url: 'http://chromecommander.rtfd.io',
                     active: true
                 });
             }
