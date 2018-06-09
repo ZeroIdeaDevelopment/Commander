@@ -1,0 +1,43 @@
+@import url(https://fonts.googleapis.com/css?family=Ubuntu);
+
+commander-message {
+    font-family: Ubuntu, sans-serif !important;
+    color: white !important;
+    position: fixed !important;
+    top: 50% !important;
+    left: 50% !important;
+    transform: translate(-50%, -50%) !important;
+    border: 1px solid !important;
+    border-color: rgba(0, 0, 0, 0.2) !important;
+    box-shadow: 4px 2px rgba(0, 0, 0, 0.4) !important;
+    background-color: #434343 !important;
+    padding: 10px !important;
+    width: 330px;
+    height: 80px;
+    z-index: 9999999999 !important;
+}
+
+commander-message > commander-message-content {
+    float: right;
+    width: 245px;
+    overflow-wrap: break-word;
+    font-size: small;
+}
+
+commander-message > commander-message-dismiss {
+    text-align: right;
+    cursor: pointer;
+    font-size: small;
+    font-weight: bold;
+    display: block;
+    line-height: 0px;
+    padding-bottom: 5px;
+}
+
+commander-message > commander-message-dismiss:before {
+    content: "×";
+}
+
+commander-message > img {
+    padding-right: 5px;
+}

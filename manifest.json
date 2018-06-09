@@ -1,0 +1,28 @@
+{
+    "name": "Commander",
+    "version": "1.0.0",
+    "description": "Simple commands for Chrome, straight from the omnibox.",
+    "permissions": ["tabs", "http://*/*", "https://*/*"],
+    "omnibox": {"keyword": "#"},
+    "background": {
+        "persistent": false,
+        "scripts": ["commander.js"]
+    },
+    "content_scripts": [
+        {
+            "matches": ["http://*/*", "https://*/*"],
+            "css": ["notification.css"],
+            "js": ["third-party/jquery.js", "content.js"]
+        }
+    ],
+    "web_accessible_resources": [
+        "images/*.png"
+    ],
+    "icons": {
+        "16": "images/16.png",
+        "32": "images/32.png",
+        "48": "images/48.png",
+        "128": "images/128.png"
+    },
+    "manifest_version": 2
+}
