@@ -40,6 +40,10 @@ Search function:
 
 .. image:: https://living-the.speedboat.life/061if7.png
 
+Notification:
+
+.. image:: https://living-the.speedboat.life/6fp5xd.png
+
 Arguments example:
 
 .. image:: https://living-the.speedboat.life/x7huyz.gif
