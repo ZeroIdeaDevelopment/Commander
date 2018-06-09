@@ -7,9 +7,10 @@ Highlights whenever an element updates with a red outline that disappears after 
 | Parameter |                     Description                            |
 +===========+============================================================+
 |  toggled  | Toggles whether Commander should highlight updates or not. |
-+------------------------------------------------------------------------+
++-----------+------------------------------------------------------------+
 
 Usage
 -----
-.. code::
+.. code-block:: text
+
     # highlight-updates [toggled]
