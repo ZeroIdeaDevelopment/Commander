@@ -1,7 +1,7 @@
 {
   "name": "commander",
   "version": "1.0.0",
-  "description": "A Google Chrome extension to enable a command line in the omnibox.",
+  "description": "A work-in-progress toolbox for developers, right from your omnibox.",
   "main": "none",
   "directories": {
     "doc": "docs"
@@ -23,8 +23,8 @@
     "command",
     "line"
   ],
-  "author": "LewisTehMinerz & ry00001",
-  "license": "ISC",
+  "author": "ZeroIdea Development",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/ZeroIdeaDevelopment/Commander/issues"
   },
