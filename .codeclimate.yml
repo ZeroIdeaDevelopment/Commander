@@ -28,3 +28,5 @@ engines:
 ratings:
   paths:
   - "**.js"
+exclude-patterns:
+  - "/third-party"
