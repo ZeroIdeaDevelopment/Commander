@@ -21,8 +21,8 @@
 # -- Project information -----------------------------------------------------
 
 project = 'Commander'
-copyright = '2018, LewisTehMinerz'
-author = 'LewisTehMinerz'
+copyright = '2018, ry00001 & LewisTehMinerz'
+author = 'ry00001 & LewisTehMinerz'
 
 # The short X.Y version
 version = ''
@@ -155,6 +155,6 @@ man_pages = [
 #  dir menu entry, description, category)
 texinfo_documents = [
     (master_doc, 'Commander', 'Commander Documentation',
-     author, 'Commander', 'One line description of project.',
+     author, 'Commander', 'Omnibox command line for Chrome.',
      'Miscellaneous'),
 ]
