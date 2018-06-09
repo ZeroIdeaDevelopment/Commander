@@ -12,8 +12,8 @@ commander-message {
     box-shadow: 4px 2px rgba(0, 0, 0, 0.4) !important;
     background-color: #434343 !important;
     padding: 10px !important;
-    width: 330px;
-    height: 80px;
+    width: 330px !important;
+    height: 80px !important;
     z-index: 9999999999 !important;
 }
 

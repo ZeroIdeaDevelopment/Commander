@@ -155,6 +155,6 @@ man_pages = [
 #  dir menu entry, description, category)
 texinfo_documents = [
     (master_doc, 'Commander', 'Commander Documentation',
-     author, 'Commander', 'One line description of project.',
+     author, 'Commander', 'Omnibox command line for Chrome.',
      'Miscellaneous'),
 ]

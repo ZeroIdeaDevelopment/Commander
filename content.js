@@ -1,6 +1,6 @@
 var highlightUpdates = false;
 
-$('#content').bind('DOMSubtreeModified', function(e) {
+$('#content').bind('DOMSubtreeModified', e => {
     if (highlightUpdates) {
         var before = e.target.style;
         e.target.style.outline = '#f00 solid 2px';
