@@ -2,6 +2,11 @@ Commander
 =========
 
 Welcome to the documentation for Commander!
+.. image:: https://api.codeclimate.com/v1/badges/ce5789483b5d04ad16db/maintainability
+   :target: https://codeclimate.com/github/ZeroIdeaDevelopment/Commander/maintainability
+   :alt: Maintainability
+.. image:: https://circleci.com/gh/ZeroIdeaDevelopment/Commander.svg?style=svg
+    :target: https://circleci.com/gh/ZeroIdeaDevelopment/Commander
 
 .. note::
 
