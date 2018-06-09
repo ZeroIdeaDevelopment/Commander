@@ -21,8 +21,8 @@
 # -- Project information -----------------------------------------------------
 
 project = 'Commander'
-copyright = '2018, LewisTehMinerz'
-author = 'LewisTehMinerz'
+copyright = '2018, ZeroIdea Development'
+author = 'ZeroIdea Development'
 
 # The short X.Y version
 version = ''
