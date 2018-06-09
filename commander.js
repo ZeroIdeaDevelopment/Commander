@@ -4,10 +4,14 @@ const commands = {
         args: ['command (optional)'],
         execute(args) {
             if (args.length > 0) {
-                chrome.tabs.create({
-                    url: 'http://chromecommander.rtfd.io/en/latest/' + args[0] + '.html',
-                    active: true
-                });
+                if (commands[args] !== undefined) {
+                    chrome.tabs.create({
+                        url: 'http://chromecommander.rtfd.io/en/latest/' + args[0] + '.html',
+                        active: true
+                    });
+                } else {
+                    commanderNotification('I can\'t show you the documentation for this command because it doesn\'t exist. Check your spelling and try again.');
+                }
             } else {
                 chrome.tabs.create({
                     url: 'http://chromecommander.rtfd.io',
