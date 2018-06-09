@@ -21,8 +21,8 @@ jobs:
 
       - run:
           name: Install dependencies
-          command: npm install -g eslint
+          command: npm i --dev
       # run tests!
       - run:
           name: Run tests
-          command: eslint .
+          command: npm test
