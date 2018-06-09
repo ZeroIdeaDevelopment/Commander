@@ -5,7 +5,7 @@ const commands = {
         execute(args) {
             if (args.length > 0) {
                 chrome.tabs.create({
-                    url: 'https://chromecommander.rtfd.io/' + args[0],
+                    url: 'https://chromecommander.rtfd.io/en/latest/' + args[0] + '.html',
                     active: true
                 });
             } else {
