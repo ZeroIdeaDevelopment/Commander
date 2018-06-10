@@ -50,7 +50,7 @@ Search function:
 
 Notification:
 
-.. image:: https://living-the.speedboat.life/6fp5xd.png
+.. image:: https://living-the.speedboat.life/pd7mtp.png
 
 Arguments example:
 
