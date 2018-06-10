@@ -72,6 +72,7 @@ Arguments example:
     :maxdepth: 2
     :caption: Commands
 
+    commands/element
     commands/help
     commands/highlight-updates
     commands/version
