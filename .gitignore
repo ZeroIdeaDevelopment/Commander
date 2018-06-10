@@ -1,3 +1,6 @@
 docs/_build
 
 .vscode
+
+# Private key file for generating the extension.
+Commander.pem

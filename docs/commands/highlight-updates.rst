@@ -1,6 +1,10 @@
 Highlight-Updates
 =================
 
+.. note::
+
+    This command uses jQuery to provide functionality.
+
 Highlights whenever an element updates with a red outline
 that disappears after a second, à la React's "Highlight Updates".
 

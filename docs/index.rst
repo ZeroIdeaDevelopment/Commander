@@ -72,6 +72,6 @@ Arguments example:
     :maxdepth: 2
     :caption: Commands
 
-    help
-    highlight-updates
-    version
+    commands/help
+    commands/highlight-updates
+    commands/version
