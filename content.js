@@ -14,7 +14,7 @@ function commanderLog(str) {
     console.log('%cCommander%c %s', 'padding-left:7px;padding-right:7px;background-color:#333;color:white;', 'padding:0;background-color:inherit;color:inherit;', str);
 }
 
-chrome.runtime.onMessage.addListener(function(message, _, sendResponse) {
+chrome.runtime.onMessage.addListener((message, _, sendResponse) => {
     commanderLog('Message received from background.');
     if (message.action === 'notify') {
         var msg = document.createElement('commander-message');
@@ -36,7 +36,7 @@ chrome.runtime.onMessage.addListener(function(message, _, sendResponse) {
         highlightUpdates = message.toggled;
         commanderLog('Enabled highlighting.');
     } else if (message.action === 'elementDelete') {
-        var element = $(message.queryString);
+        let element = $(message.queryString);
         if (element === null) {
             sendResponse({error: 'Element from query string does not exist.'});
             commanderLog('Error: element from query string does not exist.');
@@ -45,7 +45,7 @@ chrome.runtime.onMessage.addListener(function(message, _, sendResponse) {
             commanderLog('Removed element.');
         }
     } else if (message.action === 'elementCreate') {
-        var element = $(message.queryString);
+        let element = $(message.queryString);
         if (element === null) {
             sendResponse({error: 'Element from query string does not exist.'});
             commanderLog('Error: element from query string does not exist.');
@@ -59,7 +59,7 @@ chrome.runtime.onMessage.addListener(function(message, _, sendResponse) {
             commanderLog('Created element.');
         }
     } else if (message.action === 'elementText') {
-        var element = $(message.queryString);
+        let element = $(message.queryString);
         if (element === null) {
             sendResponse({error: 'Element from query string does not exist.'});
             commanderLog('Error: element from query string does not exist.');
