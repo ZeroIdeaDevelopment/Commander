@@ -6,7 +6,7 @@ Brings you to the ReadTheDocs page, or the page for the command specified.
 +-----------+------------------------------------------------------------+
 | Parameter |                     Description                            |
 +===========+============================================================+
-|  command  |  The command to automatically go to on the doucmentation.  |
+|  command  |  The command to automatically go to on the documentation.  |
 +-----------+------------------------------------------------------------+
 
 Usage
