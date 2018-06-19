@@ -110,8 +110,8 @@ function commanderNotification(text) {
 }
 
 function parseAsBoolean(input) {
-    let yes = ['yes', 'true', 'on', '1'];
-    let no = ['no', 'false', 'off', '0'];
+    let yes = ['yes', 'true', 'on', '1', 'y'];
+    let no = ['no', 'false', 'off', '0', 'n'];
     if (yes.includes(input.toLowerCase())) return true;
     if (no.includes(input.toLowerCase())) return false;
     return null;

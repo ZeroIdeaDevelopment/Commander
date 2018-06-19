@@ -1,6 +1,6 @@
 {
     "name": "Commander",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "description": "Simple commands for Chrome, straight from the omnibox.",
     "permissions": ["tabs", "http://*/*", "https://*/*"],
     "omnibox": {"keyword": "#"},
