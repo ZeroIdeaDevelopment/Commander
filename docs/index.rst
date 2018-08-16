@@ -38,23 +38,23 @@ Yes! And better yet, some GIF images have been thrown in there too!
 
 Prompt:
 
-.. image:: https://living-the.speedboat.life/72yn3z.png
+.. image:: https://owo.whats-th.is/57bd9b.png
 
 Command names and descriptions:
 
-.. image:: https://living-the.speedboat.life/042i7c.png
+.. image:: https://owo.whats-th.is/e172c1.png
 
 Search function:
 
-.. image:: https://living-the.speedboat.life/061if7.png
+.. image:: https://owo.whats-th.is/89b9c0.png
 
 Notification:
 
-.. image:: https://living-the.speedboat.life/pd7mtp.png
+.. image:: https://owo.whats-th.is/602a0b.png
 
 Arguments example:
 
-.. image:: https://living-the.speedboat.life/x7huyz.gif
+.. image:: https://owo.whats-th.is/8f10df.gif
 
 
 .. _commander-docs:
